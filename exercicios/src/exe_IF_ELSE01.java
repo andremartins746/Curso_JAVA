@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class exe_IF_ELSE01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int x;
+		System.out.println("digite um numero: ");
+		x = sc.nextInt();
+		if(x <0) {
+			System.out.println("NEGATIVO");
+		}
+		else { 
+			System.out.println("NÂO NEGATIVO");
+		
+		}
+		
+		sc.close();
+	}
+
+}
