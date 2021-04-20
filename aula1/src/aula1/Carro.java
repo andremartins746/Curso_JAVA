@@ -1,6 +1,6 @@
 package aula1;
 
-public class Carro {
+public class Carro { //está classe não está encapsulada
 	
 	String modelo;
 	double qtd_combustivel;
